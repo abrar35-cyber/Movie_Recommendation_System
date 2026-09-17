@@ -1,0 +1,52 @@
+# ==============================
+# OS & System Files
+# ==============================
+.DS_Store
+Thumbs.db
+*.pem
+
+# ==============================
+# Environment & Secrets
+# ==============================
+.env
+.env*.local
+*.env
+
+# ==============================
+# Frontend (Next.js / React)
+# ==============================
+node_modules/
+.next/
+out/
+build/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ==============================
+# Backend (Python / ML)
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Large Model Files (>100MB cannot be pushed to GitHub)
+similarity.pkl
+*.h5
+
+similarity.pkl
+Backend/similarity.pkl
