@@ -1,0 +1,7 @@
+-r requirements.txt
+uvicorn[standard]
+numpy
+pandas
+scikit-learn
+pytest
+httpx
